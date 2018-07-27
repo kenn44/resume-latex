@@ -1,0 +1,176 @@
+%-------------------------
+% Resume in Latex
+% Author : Kenneth Assogba
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://kennethassogba.co/}{\Large Kenneth Assogba}} & Email : \href{mailto: kennethassogba@gmail.com}{kennethassogba@gmail.com}\\
+  \href{https://kennethassogba.co/}{https://kennethassogba.co} & Mobile : +229 67478728 \\
+  Github : \href{https://github.com/kenn44}{https://github.com/kenn44}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Institut de Mathematiques et de Sciences Physiques (IMSP/UAC)}{Dangbo, Benin}
+      {Master of Science in Fundamental Mathematics and Applications}{Oct. 2017 -- Present}
+    \resumeSubheading
+      {Ecole Superieure de Gestion d'Informatique et des Sciences (ESGIS)}{Cotonou, Benin}
+      {Bachelor of Computer Science}{Oct. 2016 -- Dec. 2017}
+    \resumeSubheading
+      {Institut de Mathematiques et de Sciences Physiques (IMSP/UAC)}{Dangbo, Benin}
+      {Bachelor of Mathematics}{Oct. 2015 -- Jun. 2017}
+    \resumeSubheading
+      {Institut de Mathematiques et de Sciences Physiques (IMSP/UAC)}{Dangbo, Benin}
+      {Higher School Preparatory Classes (two-year highly selective classes)}{Oct. 2013 -- Jun. 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {OpenSi \href{http://opensi.co/}{(http://opensi.co)}}{Cotonou, Benin}
+      {Jr Data Science Engineer}{May 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Credit Scoring Model}
+          {Study impact of new data type and technics in building credit scorecard. The goal is to obtain a service that will evaluate creditworthiness of people not eligible for banking services and therefore grant them credits via mobile money.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Solutis \href{https://solutis-it.com/}{(https://solutis-it.com)} }{Cotonou, Benin}
+      {Software Engineer}{Oct 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{SAC-TIC Project \href{https://play.google.com/store/apps/details?id=com.solutis.sactic}{(SAC-TIC on Google Play Store)}}
+          {Resulting from the collaboration between various actors of the water sector, SAC-TIC makes it possible to be informed in case of break or disturbances of the water distribution network, to receive tricks and advices.}
+        \resumeItem{SAC-TIC Landing \href{https://sac-tic.tk/}{(https://sac-tic.tk)}}
+          {Develop the SAC-TIC project homepage from the prototype made by the graphic designer.}
+        \resumeItem{Solutis Website}
+          {Design, build and optimize the company's website. Study analytics to improve user experience.}
+        \resumeItem{Alpha-Benin CRM}
+          {Working on a new service to allow Alpha-Benin to better analyze and process data from the work of its sales representatives.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {EtriLabs \href{https://etrilabs.com/}{(https://etrilabs.com)}}{Cotonou, Benin}
+      {Jr Software Engineer}{Apr 2017 and Sep 2017}
+      \resumeItemListStart
+        \resumeItem{Mongo Manager \href{http://mongomanager.space/}{(http://mongomanager.space)}}
+          {Allows to easily backup any mongodb database to a storage of your choice (AWS S3, Digital Ocean,..). Work on the backend app with NodeJs and Express.}
+        \resumeItem{Nymeria}
+          {Development of a community marketplace for people to list, discover, and book unique accommodations online or from a mobile phone or tablet.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Google Developer Group Porto-Novo}{Porto-Novo, Benin}
+      {Developer Content Advisor}{Jan 2018 - Present}
+      \resumeItemListStart
+	\resumeItem{Organisation}
+          {Organizing and delivering workshops about Google and open source technologies to participants}
+        \resumeItem{Formation}
+          {Presentations and codelab about: NodeJS and PWA}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{InoTech \href{https://ino-tech.net/}{(https://ino-tech.net)}}
+      {Ino-tech is an ambitious media founded in 2017 to study and show how technology is changing our lives.}
+    \resumeSubItem{Virtualenv + Docker}
+      {On each new computer, I have to install lots of Python libraries in virtualenv. For example Dataenv= Tensorflow, Keras, Matplotlib, Seaborn,... The project is to write dockerfile for each env. It'll permit to install each env in one command.}
+    \resumeSubItem{Football score predictions}
+      {Create a model based on open football data to predict match results}
+    \resumeSubItem{blog.kennethassogba.co}
+      {Blog that talk about computational mathematics and machine learning.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

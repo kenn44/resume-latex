@@ -111,10 +111,10 @@
       {Stage de fin d'études}{Palaiseau, France}
       {Total R\&D}{Avril 2020 - Present}
       \resumeItemListStart
-       \item{Développement d'un algorithme de génération de maillage hybride
+       \item{Hybrid mesh generation: from practical algorithms to discrete geometry challenges
       	\\\textbf{$\rhd$ \small{Étude de la littérature sur le maillage hybride
-      	\\$\rhd$ Découverte des bases de la Géométrie algorithmique
-      	\\$\rhd$ Implemen avec l'tilisation de l'API Python de Gmsh}}}
+      	\\$\rhd$ Découverte des bases de la géométrie algorithmique
+      	\\$\rhd$ Implémentation d'un 1er algorithme en 2D avec l'utilisation de l'API Python de Gmsh}}}
       \resumeItemListEnd
       
       \resumeSubheading
@@ -171,7 +171,7 @@
 \section{\color{blue}Compétences Informatiques et Linguistiques}
 \resumeSubHeadingListStart
  \item{
-  	\textbf{Programmation}{: Python, C++, Matlab, Freefem++, Code\_Aster, Git, \LaTeX}
+  	\textbf{Programmation}{: Python, Code\_Aster (Salome\_Meca), C++, Matlab, Freefem++, Git, \LaTeX}
   }
  \item{
 	\textbf{Langues}{: Anglais (Compréhension et rédaction de textes scientifiques)}
@@ -186,27 +186,14 @@
 %$\rhd$ Rapports et simulations
 \resumeSubHeadingListStart
 
-\resumeSubItem{Modélisation et Analyse numérique}
-
-\resumeItemListStart
-\item{Implémentation en \textbf{C++} un algorithme de recherche d’un triangle $K$ dans un maillage convexe $T_h$ contenant un point $(x, y)$ en $O(log_2(n_T))$.}
-
-\item{Modéliser un problème scientifique: Étude de la dissipation thermique d'un rayonnement laser dans la peau.}
-
-\item{Rédaction d'un notebook Jupyter présentant les méthodes numériques de résolution d'équations non linéaires $f(x)=0$ et leur implementation en \textbf{Python}.}
-
-\item{Implémentation en Python de schémas numériques de résolution d'équations différentielles ordinaires	}      
-
-\resumeItemListEnd
-
 
 \resumeSubItem{Calcul scientifique et Optimisation numérique}
 
 \resumeItemListStart
 
-\item{Parallélisation de la résolution d'un système avec la méthode du gradient conjugué (\textbf{MPI}).}
+\item{Étude du conditionnement et de l'influence du choix du solveur (MUMPS, GCPC, MULT\_FRONT) dans la résolution d'un problème de mécanique ou de thermique dans \textbf{Salome\_Meca}.}
 
-\item{Étude du conditionnement et de l'influence du choix du solveur (MUMPS, GCPC, MULT\_FRONT) dans la résolution d'un problème de mécanique ou de thermique dans Salome\_Meca.}
+\item{Parallélisation de la résolution d'un système avec la méthode du gradient conjugué (\textbf{MPI}).}
 
 \item{Contrôle optimal de l'équation de Schrödinger avec l'algorithme du gradient à pas fixe (\textbf{Python} et NumPy).}
 %\item{Contrôle optimal de l'équation de Schrödinger avec l'algorithme du gradient à pas fixe et la méthode de splitting d'opérateur. Implémentation et simulation avec \textbf{Python}, NumPy et Matplotlib}
@@ -216,6 +203,21 @@
 %\item{Étude de modèles en dynamique des populations notamment ceux de Lotka-Volterra et Verhulst. (Scilab)}
 
      
+
+\resumeItemListEnd
+
+
+
+\resumeSubItem{Modélisation et Analyse numérique}
+
+\resumeItemListStart
+\item{Modéliser un problème scientifique: Étude de la dissipation thermique d'un rayonnement laser dans la peau.}
+
+\item{Implémentation en \textbf{C++} un algorithme de recherche d’un triangle $K$ dans un maillage convexe $T_h$ contenant un point $(x, y)$ en $O(log_2(n_T))$.}
+
+\item{Rédaction d'un notebook Jupyter présentant les méthodes numériques de résolution d'équations non linéaires $f(x)=0$ et leur implementation en \textbf{Python}.}
+
+\item{Implémentation en Python de schémas numériques de résolution d'équations différentielles ordinaires	}      
 
 \resumeItemListEnd
 
